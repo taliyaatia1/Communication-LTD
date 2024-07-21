@@ -36,14 +36,17 @@ Install the Necessary Dependencies
   npm install
 
 
-#Set Up MySQL Databases and Tables
+##Set Up MySQL Databases and Tables
 **Make sure you have MySQL installed and running on your system.**
 Create two new databases: ltd-clients-db and ltd-users-db.
-  Import the SQL schema files provided in the project:
+
+ ** Import the SQL schema files provided in the project:**
   1.For ltd-clients-db, import ltd-clients-db-schema.sql to set up the clients table.
   2.For ltd-users-db, import ltd-users-db-schema.sql to set up the users table.
+  
 Configure Database Connection
 In the config folder, locate the db-config.js file.
+
 Update the database configuration with your MySQL credentials, including host, user, password, and database names (ltd-clients-db and ltd-users-db).
 
 **Start the Development Server**
