@@ -68,5 +68,7 @@ SELECT * FROM users;
 
 
 
+You can copy and paste this content into a `README.md` file in your repository.
+
 
 
