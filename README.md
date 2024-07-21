@@ -40,9 +40,9 @@ Install the Necessary Dependencies
 **Make sure you have MySQL installed and running on your system.**
 Create two new databases: ltd-clients-db and ltd-users-db.
 
- ** Import the SQL schema files provided in the project:**
-  1.For ltd-clients-db, import ltd-clients-db-schema.sql to set up the clients table.
-  2.For ltd-users-db, import ltd-users-db-schema.sql to set up the users table.
+ **Import the SQL schema files provided in the project:**
+  1.For ltd-clients-db, import ltd-clients-db-schema.(Client Table)
+  2.For ltd-users-db, import ltd-users-db-schema.(User Table)
   
 Configure Database Connection
 In the config folder, locate the db-config.js file.
