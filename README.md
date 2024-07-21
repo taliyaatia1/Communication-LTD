@@ -41,6 +41,7 @@ Install the Necessary Dependencies
 Create two new databases: ltd-clients-db and ltd-users-db.
 
  **Import the SQL schema files provided in the project:**
+
   1.For ltd-clients-db, import ltd-clients-db-schema.(Client Table)
   2.For ltd-users-db, import ltd-users-db-schema.(User Table)
   
@@ -68,7 +69,6 @@ SELECT * FROM users;
 
 
 
-You can copy and paste this content into a `README.md` file in your repository.
 
 
 
